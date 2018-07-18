@@ -36,6 +36,7 @@ public class GroceryList
         out.println();
         out.print("How much does one " + item3 + " cost? ");
         float item3Cost = keyboard.nextFloat();
+        
         out.println();
         out.println("Calculating your grocery bill.");
         float totalCostOf1 = item1Quantity * item1Cost;
